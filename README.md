@@ -13,61 +13,9 @@ Diese Website dokumentiert die Ereignisse der Reichspogromnacht mit einem zeitge
 - **Deutsche Inhalte**: Vollständig auf Deutsch verfasst
 - **Responsive Design**: Funktioniert auf Desktop und Mobile
 
-## Technologie-Stack
-
-- **Framework**: [Vite](https://vitejs.dev/) + [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- **UI Components**: [Shadcn/ui](https://ui.shadcn.com/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Deployment**: [GitHub Pages](https://pages.github.com/)
-
-## Lokale Entwicklung
-
-```bash
-# 1. Repository clonen
-git clone https://github.com/Baumkrieger69/november-echoes.git
-cd november-echoes
-
-# 2. Dependencies installieren
-npm install
-
-# 3. Dev-Server starten (http://localhost:8080)
-npm run dev
-```
-
-## Build & Deployment
-
-```bash
-# Lokal bauen
-npm run build
-
-# Zu GitHub Pages deployen
-npm run deploy
-```
-
-Das `gh-pages` Package deployed automatisch zu https://baumkrieger69.github.io/november-echoes/
-
-## Projektstruktur
-
-```
-src/
-├── pages/
-│   ├── Index.tsx          # Startseite
-│   ├── ArticlePage.tsx    # Artikel-Detailseite
-│   └── NotFound.tsx       # 404-Seite
-├── data/
-│   └── articles.ts        # Artikel-Inhalte (4 Artikel)
-├── components/
-│   ├── ImageArticle.tsx   # Artikel-Karten
-│   ├── NavLink.tsx        # Navigation
-│   └── ui/                # Shadcn UI Components
-├── App.tsx                # Hauptkomponente mit Router
-├── App.css                # Globale Styles (Zeitungsdesign)
-└── index.css              # Tailwind + Basis-Styles
-```
-
 ## Artikel
 
-Die Website dokumentiert 4 Hauptaspekte:
+Die Website dokumentiert 4 Hauptaspekte der Reichspogromnacht:
 
 1. **Der Weg in den Terror** - Historischer Hintergrund
 2. **Ein Schuss und der Terror bricht los** - Auslöser und Ablauf
